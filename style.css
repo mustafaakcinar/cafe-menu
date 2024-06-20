@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("./images/cafe-3537801_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(216, 184, 125, 0.658);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: rgb(223, 223, 102);
+    border-radius: 2rem;
+   
+}
+
+.main {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.upside {
+    height: 41vh;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.breakfast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/kahvalti_tabagi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 70%;
+    opacity: 0.7;
+}
+
+
+.foods {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("./images/körisoslutavuk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 70%;
+    opacity: 0.7;
+}
+
+
+.downside {
+    height: 41vh;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.dessert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/5c8dae7c45d2a09e009cf0ae.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom-left-radius: 70%;
+    opacity: 0.7;
+}
+
+.beverages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/23.02.21-blog-cs-gorsel-yazicecegi-compress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom-right-radius: 70%;
+    opacity: 0.7;
+}
+
+
+.breakfast:hover{
+    transition: transform .4s ease-in-out;
+    transform: scale(1.1) translate(-10px,-10px);
+    opacity: 1;
+}
+
+.beverages:hover{
+    transition: transform .4s ease-in-out;
+    transform: scale(1.1) translate(10px,10px);
+    opacity: 1;
+}
+
+.foods:hover {
+    transition: transform .4s ease-in-out;
+    transform: scale(1.1) translate(10px,-10px);
+    opacity: 1;
+}
+
+.dessert:hover {
+    transition: transform .4s ease-in-out;
+    transform: scale(1.1) translate(-10px,10px);
+    opacity: 1;
+}
+
+.main h2 {
+    background-color: rgb(223, 223, 102);
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    background-color: rgba(216, 184, 125, 0.658);
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
